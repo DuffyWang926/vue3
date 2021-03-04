@@ -11,12 +11,10 @@
 import { createStore } from 'vuex'
 
 import cart from './modules/cart'
-import search from './modules/search'
 
 export default createStore({
   modules: {
-    cart,
-    search
+    cart
   },
   strict: process.env.NODE_ENV !== 'production'
 })

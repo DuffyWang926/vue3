@@ -1,9 +1,9 @@
 <template>
   <div class="login">
     <header class="page-header">
-      <span class="btn-left" @click="$router.go(-1)">
+      <!-- <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="close-popup"></svg-icon>
-      </span>
+      </span> -->
     </header>
     <div class="mall-logo">
       <img src="../../assets/image/setting/logo.png" />
@@ -49,6 +49,7 @@ export default {
   name: "login",
 
   setup() {
+    debugger
     const $router = useRouter();
     const { ctx } = getCurrentInstance();
     const loginForm = reactive({

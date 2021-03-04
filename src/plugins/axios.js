@@ -1,12 +1,4 @@
-/*
- * @version: v 1.0.0
- * @Github: https://github.com/GitHubGanKai
- * @Author: GitHubGanKai
- * @Date: 2021-01-01 17:19:50
- * @LastEditors: gankai
- * @LastEditTime: 2021-01-02 13:41:13
- * @FilePath: /refactor-with-vue3/src/plugins/axios.js
- */
+
 /**
  * axios封装
  * 请求拦截、响应拦截、错误统一处理
