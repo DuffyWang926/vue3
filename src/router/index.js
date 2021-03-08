@@ -20,7 +20,7 @@ const routes = [
   },
   {
     path: '/index',
-    name: 'nopermission',
+    name: 'home',
     meta: {
       index: 1
     },
